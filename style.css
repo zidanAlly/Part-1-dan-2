@@ -1,0 +1,130 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Arial';
+}
+.wrapper{
+    width: 1001px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: #f8f6f5;
+    float: left;
+}
+.menu{
+    float:right;
+
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: rgb(5, 5, 0);
+    z-index: 1;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: rgb(244, 242, 242);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+a.order{
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+section{
+    margin: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.kolom{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #121212;
+}
+.kolom .deskripsi{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    color: #0b0700;
+    line-height: 25px;
+    justify-content:first baseline;
+}
+p{
+    font-family:'comic ms sans';
+    color: #0f0900;
+    line-height: 20px;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #f8cc8a;
+    width: 100%;
+    line-height: 60px;
+}
+
+.gambar{
+    margin-top: 50px;
+    width: 480px;
+    height: auto;
+    float: right;
+    border-radius: 24px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(246, 182, 44, 0.7);
+    transition: transform 0.3s ease;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-4px);
+    gap: 40px;
+
+}
+a.reservasi{
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
